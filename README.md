@@ -24,7 +24,7 @@ O objetivo é possibilitar, a partir de um mesmo binário/script:
 
 ### 2. Teste de BOLA / IDOR
 - Lê entradas de `.json` ou arquivos de lista de URLs/rotas
-- Modo **manual** ou **via wordlist** (Tkinter)
+- Modo **manual** ou **via wordlist**
   - Substitui valores de parâmetros existentes
   - Adiciona parâmetros extras
 - Permite uso de **headers customizados**, **query params adicionais** e **proxy**
