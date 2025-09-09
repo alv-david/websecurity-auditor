@@ -1,4 +1,4 @@
-# WebSecurity-Auditor
+# webbecurity-auditor
 
 Ferramenta em Python para **auditoria de segurança de aplicações web e APIs**, unificando múltiplos tipos de análise em um único CLI interativo.
 
