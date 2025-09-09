@@ -1,0 +1,12 @@
+{
+    "Content-Security-Policy": -20,
+    "Strict-Transport-Security": -20,
+    "X-Content-Type-Options": -10,
+    "Cache-Control": -8,
+    "Access-Control-Allow-Origin": -10,
+    "Access-Control-Allow-Methods": -5,
+    "Cross-Origin-Embedder-Policy": -10,
+    "Cross-Origin-Resource-Policy": -8,
+    "Server": -5,
+    "X-Powered-By": -5
+}

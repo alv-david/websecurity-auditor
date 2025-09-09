@@ -1,0 +1,32 @@
+{
+  "owasp_security_headers": [
+    { "name": "Strict-Transport-Security", "cwe": "CWE-16" },
+    { "name": "Content-Security-Policy", "cwe": "CWE-693" },
+    { "name": "Cross-Origin-Opener-Policy", "cwe": "CWE-942" },
+    { "name": "Cross-Origin-Embedder-Policy", "cwe": "CWE-942" },
+    { "name": "Cross-Origin-Resource-Policy", "cwe": "CWE-942" },
+    { "name": "Access-Control-Allow-Origin", "cwe": "CWE-942" },
+    { "name": "Access-Control-Allow-Methods", "cwe": "CWE-942" },
+    { "name": "X-Content-Type-Options", "cwe": "CWE-693" },
+    { "name": "X-Frame-Options", "cwe": "CWE-1021" },
+    { "name": "X-XSS-Protection", "cwe": "CWE-79" },
+    { "name": "Referrer-Policy", "cwe": "CWE-16" },
+    { "name": "Permissions-Policy", "cwe": "CWE-275" },
+    { "name": "Cache-Control", "cwe": "CWE-16" }
+  ],
+  "sensitive_headers": [
+    { "name": "Server", "cwe": "CWE-200" },
+    { "name": "X-Powered-By", "cwe": "CWE-200" },
+    { "name": "X-AspNet-Version", "cwe": "CWE-200" },
+    { "name": "X-AspNetMvc-Version", "cwe": "CWE-200" }
+  ],
+  "cwe_descriptions": {
+    "CWE-16": "Configuration",
+    "CWE-79": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+    "CWE-200": "Exposure of Sensitive Information to an Unauthorized Actor",
+    "CWE-275": "Permission Issues",
+    "CWE-693": "Protection Mechanism Failure",
+    "CWE-942": "Permissive Cross-domain Policy with Untrusted Domains",
+    "CWE-1021": "Improper Restriction of Rendered UI Layers or Frames"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "owasp_security_headers": [
+    { "name": "Strict-Transport-Security", "cwe": "CWE-16" },
+    { "name": "Access-Control-Allow-Origin", "cwe": "CWE-942" },
+    { "name": "Access-Control-Allow-Methods", "cwe": "CWE-942" },
+    { "name": "Access-Control-Allow-Headers", "cwe": "CWE-942" },
+    { "name": "Cross-Origin-Resource-Policy", "cwe": "CWE-942" },
+    { "name": "Cross-Origin-Embedder-Policy", "cwe": "CWE-942" },
+    { "name": "X-Content-Type-Options", "cwe": "CWE-693" },
+    { "name": "Content-Type", "cwe": "CWE-16" }
+  ],
+  "sensitive_headers": [
+    { "name": "Server", "cwe": "CWE-200" },
+    { "name": "X-Powered-By", "cwe": "CWE-200" },
+    { "name": "X-AspNet-Version", "cwe": "CWE-200" },
+    { "name": "X-AspNetMvc-Version", "cwe": "CWE-200" },
+    { "name": "Pragma", "cwe": "CWE-200" },
+    { "name": "X-Ratelimit-Remaining-Minute", "cwe": "CWE-200" },
+    { "name": "X-Ratelimit-Limit-Minute", "cwe": "CWE-200" },
+    { "name": "Ratelimit-Reset", "cwe": "CWE-200" },
+    { "name": "Ratelimit-Limit", "cwe": "CWE-200" },
+    { "name": "Ratelimit-Remaining", "cwe": "CWE-200" }
+  ],
+  "cwe_descriptions": {
+    "CWE-16": "Configuration",
+    "CWE-200": "Exposure of Sensitive Information to an Unauthorized Actor",
+    "CWE-693": "Protection Mechanism Failure",
+    "CWE-942": "Permissive Cross-domain Policy with Untrusted Domains"
+  }
+}

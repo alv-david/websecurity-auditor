@@ -1,0 +1,16 @@
+{
+    "base_score": 100,
+    "penalties": {
+        "missing_security_header": 10,
+        "sensitive_header_present": 5,
+        "tech_disclosure_name": 5,
+        "tech_disclosure_name_and_version": 10,
+        "insecure_tls": 20
+    },
+    "ratings": {
+        "A": {"min": 90, "label": "Excelente", "color": "verde"},
+        "B": {"min": 75, "label": "Bom", "color": "amarelo"},
+        "C": {"min": 50, "label": "Regular", "color": "laranja"},
+        "D": {"min": 0, "label": "Ruim", "color": "vermelho"}
+    }
+}
