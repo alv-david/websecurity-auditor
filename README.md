@@ -30,7 +30,7 @@ O objetivo é possibilitar, a partir de um mesmo binário/script:
 - Permite uso de **headers customizados**, **query params adicionais** e **proxy**
 - Exporta resultados em `.json` e `.csv`
 
-### 3. Fuzzing de Diretórios
+### 3. Fuzzing de Diretórios (em breve)
 - Teste de descoberta de diretórios/arquivos ocultos
 - Seleção de **wordlist** via interface Tkinter
 - Suporte a múltiplos alvos
