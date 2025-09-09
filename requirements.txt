@@ -1,5 +1,7 @@
-pandas
 requests
+urllib3
+pandas
+PyYAML
 colorama
-openpyxl
 tk
+openpyxl
